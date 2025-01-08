@@ -9,6 +9,8 @@ def rook_check(x1, y1, x2, y2):
 def bishop_check(x1, y1, x2, y2):
     return abs(x1 - x2) == abs(y1 - y2)
 
+def bishop_check(x1, y1, x2, y2):
+    return abs(x1 - x2) == abs (y1 - y2)
 
 def knight_check (x1, y1, x2, y2):
     ox = abs(x1 - x2)
